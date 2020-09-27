@@ -31,7 +31,8 @@ public class ToDo {
     public String toString(){
         StringBuffer sb = new StringBuffer();
         sb.append("*****" + title + "*****");
-        sb.append(description +  "\n");
+        sb.append( "\n" + description +  "\n");
+        sb.append("Business Contact: " + contact + "\n");
         sb.append("Supply List: \n");
         for (String s : supplies){
             sb.append("- "+ s + "\n");
