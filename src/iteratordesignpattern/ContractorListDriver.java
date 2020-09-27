@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class ContractorListDriver {
     public void run() {
+        /*
+        Creates a new ContractorToDoList : jeffryHouse
+        Adds to the supplies Arraylist
+         */
         ContractorToDoList jeffryHouse = new ContractorToDoList("123 Market St.");
 
         ArrayList<String> excavatingSupplies = new ArrayList<String>();
